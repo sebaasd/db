@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78FEB975-9EFE-76E0-CE7C-332E90BC0A37" name="ALTERNATIVA">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:25 UTC</createdTime>
+<generatorID>223EAEB6-48C3-9E33-00E5-73D347A4B570</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_alternativa" id="1E87C56D-EEA4-E932-45ED-B560A6D283B8">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:25 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<importedID>F2BEBECD-7EBD-DFB6-47AF-179788C7E8FD</importedID>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="A6F8B4EE-C7BA-816E-CD73-F92AA8C57156">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:25 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<importedID>C4C8CF3F-1030-10E7-FE18-13A0BA7E4FF7</importedID>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alternativa_correcta" id="3235F7AE-A4B0-1DC6-038C-19490ED9F847">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:25 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<importedID>F1918AEF-C11C-5976-A9C9-751B5332A8BC</importedID>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="porcentaje_correcto" id="085C0A48-66C9-1EA9-0771-809F3E934F75">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:25 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<importedID>9B38AB54-128A-5579-3135-B679347E55E8</importedID>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B611383-7BA8-C4AA-EFBE-2950EB170E50" name="alternativa pk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:25 UTC</createdTime>
+<generatorID>A3DF2E31-697A-3224-DD8A-2943F3EA7C87</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1E87C56D-EEA4-E932-45ED-B560A6D283B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2CED6152-25B4-DB46-1AE3-61A402D404BB" name="ESTUDIANTE">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:51 UTC</createdTime>
+<generatorID>BEC674C1-5704-855A-D0E9-72CF03132A68</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_estudiante" id="9E6A0633-F64E-FE89-060A-3FB9DDFA46DA">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:51 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<importedID>BAB90E14-52F1-8923-3243-85F1060FA491</importedID>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="FDE43623-58D5-34F8-6921-7855EBCAEAD9">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:51 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<importedID>56F33D7E-8BF9-8FB2-5E6E-E07155BA1742</importedID>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="809C121D-4629-16BB-89E5-D4F609255B3E">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:51 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<importedID>5A3885BA-4E85-1CED-6FC0-FB6EE6A13B4A</importedID>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="9DC1D148-F056-91BB-0B9E-6ADE9CECFD1B">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:51 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<importedID>F4E356ED-C433-D0BB-F9D6-B5465DC808C6</importedID>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_curso" id="7223E50E-C79D-F2C0-5B57-BE54F3B7C0AD">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:15:20 UTC</createdTime>
+<generatorID>EECBB284-DAE5-B43E-BAE5-E05CB0F9DBD6</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="true"/>
+</engineerTo>
+<referedAttribute>45801A48-0C66-F5A6-07A0-AFB3D025E783</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6088D088-D7DA-05AF-5FBE-712B3DBC22B2" name="estudiante pk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:51 UTC</createdTime>
+<generatorID>8A9894F7-2ABC-88D3-07BD-710E71CDCDD5</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E6A0633-F64E-FE89-060A-3FB9DDFA46DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5006245-40FD-E2F3-9134-57E9FB398A56" name="CURSO">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:57 UTC</createdTime>
+<generatorID>9BC709C0-034E-D14B-5BF3-0BBD1FF2B9F8</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_curso" id="45801A48-0C66-F5A6-07A0-AFB3D025E783">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:57 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<importedID>E854C516-0DC9-E792-A304-0A2ADB155FE8</importedID>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="1ECA4C7F-AB20-5036-06CA-4EB6AA48D40B">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:57 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<importedID>77EF0A08-DFFE-93CF-614B-23AF5D74C523</importedID>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A92B767-50F0-8334-92EA-2682864D916F" name="curso pk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:57 UTC</createdTime>
+<generatorID>C1A96070-2899-0801-1A83-53464426F17B</generatorID>
+<ownerDesignName>diseño</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5A88859C-43DD-E06D-B4C7-F39D1E192AB5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45801A48-0C66-F5A6-07A0-AFB3D025E783</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="DDL_evaluacion_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="FLOAT_2_0_0" id="168EEB7C-D22A-3CB1-4C91-0F52ED9CA08A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:25 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>DDL_evaluacion_Domains</fileName>
+<logicalDatatype>LOGDT021</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="1B21E8FB-6780-0F8A-CF75-30381CE91660">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:25 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>DDL_evaluacion_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="46614128-CEBA-7727-94D2-BC4417284ACA">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:38 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>DDL_evaluacion_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1" id="8E79C276-3E8B-C225-4AE1-D33D0E429137">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:25 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>1</dataTypeSize>
+<fileName>DDL_evaluacion_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_500" id="90000417-489B-C41A-4C14-D4963041631E">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:25 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>500</dataTypeSize>
+<fileName>DDL_evaluacion_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_15" id="C471C77C-3754-C1A0-5225-12C97B281BDB">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:51 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>15</dataTypeSize>
+<fileName>DDL_evaluacion_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="C9C56D40-EBE4-E626-8948-7A27A34F8436">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:44 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>DDL_evaluacion_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="FLOAT_1_0_0" id="FCBF07A3-310C-9C05-0501-7A3F22583C59">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 21:10:38 UTC</createdTime>
+<ownerDesignName>diseño</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>DDL_evaluacion_Domains</fileName>
+<logicalDatatype>LOGDT021</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>
